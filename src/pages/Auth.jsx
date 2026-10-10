@@ -60,11 +60,11 @@ const Auth = () => {
                 required: "Password is required",
                 minLength: {
                   value: 6,
-                  message: "Password must be atleast 6 characters"
+                  message: "Password must be at least 6 characters"
                 },
                 maxLength: {
                   value: 12,
-                  message: "Passoword must be less than 12 characters"
+                  message: "Password must be at most 12 characters"
                 }
               },)}
 
