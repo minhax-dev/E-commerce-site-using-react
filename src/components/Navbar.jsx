@@ -25,7 +25,7 @@ const Navbar = () => {
             </div> : (
               <div className="navbar-user">
                 <span className='navbar-greeting'>Hello, {user.email}</span>
-                <button className='btn btn-btn-secondary' onClick={logout}>Logout</button>
+                <button className='btn btn-secondary' onClick={logout}>Logout</button>
               </div>
             )}
 

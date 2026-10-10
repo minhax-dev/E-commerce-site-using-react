@@ -209,6 +209,14 @@ body {
   margin-bottom: 2rem;
 }
 
+.product-detail-button {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .auth-container {
   max-width: 400px;
   margin: 0 auto;
