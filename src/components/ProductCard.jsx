@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
         <p className='product-card-price'>${product.price}</p>
 
         <div className="product-card-actions">
-          <Link className='btn btn-primary' >View Details</Link>
+          <Link className='btn btn-primary' to={`products/${product.id}`} >View Details</Link>
           <button className='btn btn-secondary'>Add to card</button>
         </div>
 

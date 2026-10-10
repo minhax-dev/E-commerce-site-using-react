@@ -37,7 +37,6 @@ const Auth = () => {
       setError(result.error)
     }
 
-
   }
 
   return (
@@ -45,8 +44,6 @@ const Auth = () => {
       <div className="container">
         <div className="auth-container">
           <h1 className='page-title'>{mode === 'signup' ? "Sign Up" : "Login"}</h1>
-
-          {mode === 'login' ? (<button onClick={() => logout()} className='btn btn-secondary'>Logout</button>) : ""}
 
           <form className='auth-form' onSubmit={handleSubmit(onSubmit)}>
             {error && <div className='error-message'>{error}</div>}
