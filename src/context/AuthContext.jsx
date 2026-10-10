@@ -20,6 +20,7 @@ export function AuthProvider({ children }) {
     const newUser = { email, password }
     users.push(newUser)
     localStorage.setItem('users', JSON.stringify(users))
+    localStorage.setItem('currentUserEmail', email)
     setUser({ email })
     return { success: true }
   }
